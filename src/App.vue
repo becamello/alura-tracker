@@ -55,18 +55,21 @@ export default defineComponent({
 </script>
 
 <style>
+
 .lista {
   padding: 1.25rem;
 }
 
 main {
   --bg-primario: #fff;
-  --texto-primario: #000;
+  --texto-primario: #444444;
+  --bg-tarefa: #FDCF72;
 }
 
 main.modo-escuro {
-  --bg-primario: #2b2d42;
-  --texto-primario: #ddd;
+  --bg-primario: #121212;
+  --texto-primario: #fff;
+  --bg-tarefa: #D9A743;
 }
 
 .conteudo {

@@ -32,3 +32,9 @@ export default defineComponent({
 });
 </script>
 
+<style scoped>
+
+.columns {
+    color: var(--texto-primario);
+}
+</style>

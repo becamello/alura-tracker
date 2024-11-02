@@ -14,7 +14,7 @@ export default defineComponent({
     data () {
         return {
             estilos: {
-                'background-color': '#FAF0CA'
+                'background-color': 'var(--bg-tarefa)'
             }
         }
     }
