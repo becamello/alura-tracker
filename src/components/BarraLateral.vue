@@ -69,15 +69,22 @@ header {
   }
 }
 
+.panel {
+  box-shadow: none !important;
+}
+
 .panel li {
     margin: 8px 0;
 }
+
 .link {
     color: var(--texto-inativo);
 }
+
 .link:hover {
     color: var(--texto-primario);
 }
+
 .link.router-link-active {
     color: var(--texto-selecionado);
 }
